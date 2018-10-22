@@ -1,0 +1,15 @@
+{
+  "extends": ["tslint:recommended", "tslint-react", "tslint-config-prettier", "tslint-config-airbnb"],
+  "rules": {
+    "import-name": false,
+    "ordered-imports": false,
+    "member-access": false
+  },
+  "linterOptions": {
+    "exclude": [
+      "config/**/*.js",
+      "node_modules/**/*.ts",
+      "coverage/lcov-report/*.js"
+    ]
+  }
+}
